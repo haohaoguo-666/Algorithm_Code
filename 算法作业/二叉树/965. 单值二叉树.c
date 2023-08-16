@@ -1,3 +1,4 @@
+//https://leetcode.cn/problems/univalued-binary-tree/
 bool isUnivalTree(struct TreeNode* root){
     if(root == NULL)return true;//空节点返回true
     //如果节点值不等，返回false

@@ -10,6 +10,10 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+ //1. 左右都为空 ——省略
+ //2. 右为空，左不为空 ——省略
+ //3. 左为空，右不为空 ——不省略
 class Solution {
 public:
     string tree2str(TreeNode* root) {
